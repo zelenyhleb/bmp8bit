@@ -1,0 +1,15 @@
+[package]
+name = "bmp8bit"
+version = "0.1.0"
+edition = "2021"
+license-file = "license"
+description = "Converts raster image to 256 colors format and writes it as bmp"
+homepage = "https://github.com/zelenyhleb/bmp8bit"
+documentation = "https://github.com/zelenyhleb/bmp8bit"
+repository = "https://github.com/zelenyhleb/bmp8bit"
+readme = "readme.md"
+keywords = ["bmp", "256colors", "image", "image-rs", "8bit"]
+
+[dependencies]
+image = "0.24"
+itertools = "0.12"
